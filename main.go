@@ -42,6 +42,6 @@ func main() {
     http.HandleFunc("/", helloHandler)
     http.HandleFunc("/add", addHandler)
 
-    // Menjalankan server di port 8080
-    http.ListenAndServe(":8080", nil)
+    // Menjalankan server di port 9090
+    http.ListenAndServe(":9090", nil)
 }
